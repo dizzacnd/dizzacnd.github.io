@@ -102,3 +102,28 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
     left: 65%;
 }
 /* END: Hero Carousel Styling */
+
+/* START: VIP Exclusive */
+.vip-exclusive {
+    background: black url('/images/vip-bg.jpg') no-repeat top left;
+    background-size: cover;
+}
+.vip-exclusive h3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--white);
+}
+.vip-exclusive p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--white);
+}
+.vip-exclusive button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 30px;
+}
+/* END: VIP Exclusive */

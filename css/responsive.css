@@ -5,7 +5,7 @@
         height: 70px;
     }
     /* END: Navigation Styling */
-    
+
     /* START: Benefits Styling */
     .benefits {
         height: 50px;
@@ -23,6 +23,12 @@
         bottom: 100px;
     }
     /* END: Hero Carousel Styling */
+
+    /* START: VIP Exclusive */
+    .vip-exclusive {
+        height: 75px;
+    }
+    /* END: VIP Exclusive */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
