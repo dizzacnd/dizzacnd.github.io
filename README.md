@@ -1,10 +1,10 @@
 # THREADED
 
-This is a sample application that demonstrates an E-commerce static website using Bootstrap 5.
+This is a sample application that demonstrates an e-commerce fashion website using Bootstrap 5.
 
 ## Live Demonstration
 
-The E-commerce demo can be [viewed online here](https://dizzacnd.github.io/).
+The e-commerce fashion website demo can be viewed online [here](https://dizzacnd.github.io/).
 
 ## Getting Started
 To get started, you can simply clone this `dizzacnd.github.io` repository without installing any dependecies.
