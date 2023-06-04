@@ -1,5 +1,11 @@
 /* X-Large devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* START: Navigation Styling */
+    nav.navbar {
+        height: 70px;
+    }
+    /* END: Navigation Styling */
+    
     /* START: Benefits Styling */
     .benefits {
         height: 50px;
@@ -29,12 +35,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /* START: Navigation Styling */
-    nav.navbar {
-        height: 70px;
-    }
-    /* END: Navigation Styling */
-
     /* START: Hero Carousel Styling */
     #heroCarousel .carousel-inner .carousel-item button {
         font-size: 28px;

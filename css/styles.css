@@ -25,6 +25,14 @@ nav.navbar .nav-item .nav-link.active {
     font-weight: 600;
 }
 
+nav.navbar .nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+nav.navbar .nav-item .nav-link:hover img {
+    filter: brightness(0%);
+}
+
 nav.navbar .right-nav .nav-item {
     padding: 0 10px;
 }
