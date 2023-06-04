@@ -1,0 +1,56 @@
+/* Montserrat Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --black: #000000;
+    --light-gray: #F2F2F2;
+}
+
+/* START: Navigation Styling */
+nav.navbar {
+    height: 70px;
+}
+
+nav.navbar .nav-item .nav-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+nav.navbar .nav-item .nav-link.active {
+    font-weight: 600;
+}
+
+nav.navbar .right-nav .nav-item {
+    padding: 0 10px;
+}
+
+nav.navbar .dropdown button {
+    border: 1px solid var(--light-gray);
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 4px 12px 4px 8px;
+}
+
+nav.navbar .dropdown .dropdown-toggle:after {
+    display: none;
+}
+
+nav.navbar .dropdown .dropdown-menu {
+    border: 1px solid var(--light-gray);
+}
+
+nav.navbar .dropdown .dropdown-menu .dropdown-item {
+    font-size: 14px;
+}
+/* END: Navigation Styling */
