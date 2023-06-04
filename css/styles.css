@@ -10,6 +10,7 @@
     --white: #FFFFFF;
     --light-gray: #F2F2F2;
     --red: #C1272D;
+    --gray: #4D4D4D;
 }
 
 /* START: Navigation Styling */
@@ -85,10 +86,6 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
     border-radius: 50%;
     width: 15px !important;
     height: 15px !important;
-}
-
-#heroCarousel .carousel-indicators > button:focus {
-    box-shadow: none;
 }
 
 #heroCarousel .carousel-control-next, #heroCarousel .carousel-control-prev {
@@ -178,3 +175,44 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
     background-color: var(--light-gray);
 }
 /* END: Inspo Styling */
+
+/* START: Newsletter Styling */
+.newsletter {
+    background-color: var(--black);
+    min-height: 75px;
+}
+
+.newsletter h3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--white);
+}
+
+.newsletter .input-group {
+    width: 354px;
+}
+
+.newsletter .input-group input {
+    border-radius: 0;
+    background: var(--light-gray);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 9px 17px;
+}
+
+.newsletter .input-group input::-webkit-input-placeholder {
+    color: var(--gray);
+}
+
+.newsletter .input-group button {
+    border-radius: 0;
+    background: var(--white);
+    border: 0;
+}
+.newsletter .input-group button:hover {
+    background: var(--gray);
+    color: var(--white);
+}
+/* END: Newsletter Styling */
