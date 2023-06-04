@@ -90,7 +90,7 @@ a.btn-black, a.btn-white {
     color: var(--black);
     text-decoration: none;
 }
-.category a.btn-whites:hover {
+.category a:not(.btn-white):hover {
     text-decoration: underline;
 }
 .category h4 {
