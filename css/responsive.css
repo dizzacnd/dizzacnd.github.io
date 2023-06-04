@@ -1,11 +1,5 @@
 /* X-Large devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    /* START: Navigation Styling */
-    nav.navbar {
-        height: 70px;
-    }
-    /* END: Navigation Styling */
-
     /* START: Benefits Styling */
     .benefits {
         height: 50px;
@@ -17,10 +11,10 @@
         height: 79.2vh;
     }
 
-    #heroCarousel .carousel-inner .carousel-item button {
+    #heroCarousel .carousel-inner .carousel-item .btn-white {
         font-size: 36px;
         line-height: 44px;
-        bottom: 100px;
+        bottom: 73px;
     }
     /* END: Hero Carousel Styling */
 
@@ -32,7 +26,7 @@
 
     /* START: Now Trending Styling */
     .trending {
-        padding: 79px 170px;
+        padding: 53px 130px;
     }
     /* END: Now Trending Styling */
 }
@@ -42,12 +36,6 @@
     #heroCarousel .carousel-inner .carousel-item img {
         height: 350px;
     }
-    /* END: Hero Carousel Styling */
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-    /* START: Hero Carousel Styling */
     #heroCarousel .carousel-inner .carousel-item button {
         font-size: 28px;
         line-height: 36px;
@@ -71,6 +59,10 @@
 
 /* Small devices (landscape phones, 576px and down) */
 @media screen and (max-width: 576px) {
+    .main {
+        margin-top: 115px;
+    }
+
     /* START: Hero Carousel Styling */
     #heroCarousel .carousel-inner .carousel-item img {
         height: 260px;

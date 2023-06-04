@@ -14,7 +14,22 @@
 }
 
 /* START: Navigation Styling */
-nav.navbar .nav-item .nav-link {
+.navbar {
+    padding-left: 19px;
+    padding-right: 13px;
+    background: var(--white);
+    min-height: 70px;
+}
+
+.navbar .navbar-nav {
+    column-gap: 15px;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-top: 3px;
+}
+
+.navbar .nav-item .nav-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -23,48 +38,69 @@ nav.navbar .nav-item .nav-link {
     color: var(--black);
 }
 
-nav.navbar .nav-item .nav-link.active {
+.navbar .nav-item .nav-link.active {
     font-weight: 600;
 }
 
-nav.navbar .nav-item .nav-link:hover {
+.navbar .nav-item .nav-link:hover {
     text-decoration: underline;
 }
 
-nav.navbar .nav-item .nav-link:hover img {
+.navbar .nav-item .nav-link:hover img {
     filter: brightness(0%);
 }
 
-nav.navbar .right-nav .nav-item {
-    padding: 0 10px;
+.navbar .navbar-brand img {
+    margin-left: 13px;
 }
 
-nav.navbar .dropdown button {
+.navbar .right-nav .nav-item {
+    padding: 0 11px;
+}
+
+.navbar .dropdown {
+    margin-left: 10px;
+}
+
+.navbar .dropdown .dropdown-toggle {
     border: 1px solid var(--light-gray);
     font-size: 14px;
     line-height: 17px;
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 4px 12px 4px 8px;
+    padding: 4px 10px 4px 4px;
 }
 
-nav.navbar .dropdown .dropdown-toggle:after {
+.navbar .dropdown .dropdown-toggle:after {
     display: none;
 }
 
-nav.navbar .dropdown .dropdown-menu {
+.navbar .dropdown .dropdown-toggle span {
+    padding-top: 3px;
+}
+
+.navbar .dropdown .dropdown-toggle .arrow-down {
+    margin-left: 8px;
+}
+
+.navbar .dropdown .dropdown-menu {
     border: 1px solid var(--light-gray);
 }
 
-nav.navbar .dropdown .dropdown-menu .dropdown-item {
+.navbar .dropdown .dropdown-menu .dropdown-item {
     font-size: 14px;
 }
 /* END: Navigation Styling */
 
+.main {
+    margin-top: 70px;
+}
+
 /* START: Benefits Styling */
 .benefits {
     background-color: var(--light-gray);
+    padding: 0 18px;
 }
 
 .benefits .benefit-item {
@@ -82,14 +118,20 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 /* END: Benefits Styling */
 
 /* START: Hero Carousel Styling */
+#heroCarousel .carousel-indicators {
+    margin-bottom: 26px;
+}
+
 #heroCarousel .carousel-indicators > button {
     border-radius: 50%;
     width: 15px !important;
     height: 15px !important;
+    margin: 0 10px;
 }
 
 #heroCarousel .carousel-control-next, #heroCarousel .carousel-control-prev {
-    width: 55px;
+    width: 100px;
+    opacity: 1;
 }
 
 #heroCarousel .carousel-inner .carousel-item img {
@@ -99,7 +141,7 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 
 #heroCarousel .carousel-inner .carousel-item button {
     position: absolute;
-    left: 65%;
+    left: 63.4%;
 }
 /* END: Hero Carousel Styling */
 
@@ -133,7 +175,7 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 
 /* START: Now Trending Styling */
 .trending {
-    padding: 79px 0;
+    padding: 53px 0;
 }
 /* END: Now Trending Styling */
 
@@ -165,13 +207,13 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 
 /* START: Recently Bought Styling */
 .recently-bought {
-    padding: 70px 0;
+    padding: 53px 0;
 }
 /* END: Recently Bought Styling */
 
 /* START: Inspo Styling */
 .inspo {
-    padding: 70px 0;
+    padding: 53px 0;
     background-color: var(--light-gray);
 }
 /* END: Inspo Styling */
