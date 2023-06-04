@@ -173,3 +173,31 @@ a.btn-black {
     text-decoration-line: line-through;
 }
 /* END: Product CSS */
+
+/* START: Hashtag CSS */
+.hashtags {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 10px;
+    margin-top: 30px;
+}
+.hashtags .tag {
+    border: 1px solid var(--black);
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+.hashtags .tag:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+/* END: Hashtag CSS */
