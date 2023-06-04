@@ -59,3 +59,41 @@
     margin-top: 5px;
     margin-bottom: 0;
 }
+
+.category .image-container {
+    position: relative;
+    width: 225px;
+    margin: 0 auto;
+}
+.category .image-container > .btn-white {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    text-transform: none;
+    display: none;
+    width: 225px;
+    min-height: 66px;
+}
+.category .image-container:hover > .btn-white {
+    display: block;
+}
+.category .image-container img {
+    width: 225px;
+}
+.category a {
+    color: var(--black);
+    text-decoration: none;
+}
+.category a:hover {
+    text-decoration: underline;
+}
+.category h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px; 
+    color: var(--black);
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 0;
+}

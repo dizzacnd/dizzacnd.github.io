@@ -85,9 +85,11 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
     width: 15px !important;
     height: 15px !important;
 }
+
 #heroCarousel .carousel-indicators > button:focus {
     box-shadow: none;
 }
+
 #heroCarousel .carousel-control-next, #heroCarousel .carousel-control-prev {
     width: 55px;
 }
@@ -103,27 +105,47 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 }
 /* END: Hero Carousel Styling */
 
-/* START: VIP Exclusive */
+/* START: VIP Exclusive Styling */
 .vip-exclusive {
     background: black url('/images/vip-bg.jpg') no-repeat top left;
     background-size: cover;
 }
+
 .vip-exclusive h3 {
     font-weight: 800;
     font-size: 32px;
     line-height: 39px;
     color: var(--white);
 }
+
 .vip-exclusive p {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     color: var(--white);
 }
+
 .vip-exclusive button {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     padding: 10px 30px;
 }
-/* END: VIP Exclusive */
+/* END: VIP Exclusive Styling */
+
+/* START: Now Trending Styling*/
+.trending {
+    padding: 79px 0;
+}
+
+.trending .row {
+    row-gap: 40px;
+}
+
+.trending h3 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--black);
+}
+/* END: Now Trending Styling*/
