@@ -138,9 +138,6 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 .trending {
     padding: 79px 0;
 }
-.trending .row {
-    row-gap: 40px;
-}
 /* END: Now Trending Styling */
 
 /* START: New Arrivals Styling */
@@ -173,7 +170,11 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 .recently-bought {
     padding: 70px 0;
 }
-.recently-bought .row {
-    row-gap: 40px;
-}
 /* END: Recently Bought Styling */
+
+/* START: Inspo Styling */
+.inspo {
+    padding: 70px 0;
+    background-color: var(--light-gray);
+}
+/* END: Inspo Styling */

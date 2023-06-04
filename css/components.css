@@ -30,6 +30,9 @@
     background: var(--light-gray);
     transition: all 0.5s;
 }
+a.btn-black {
+    text-decoration: none;
+}
 /* END: Buttons CSS */
 
 /* START: Offer item CSS */
@@ -105,11 +108,23 @@
 /* END: Category CSS */
 
 /* START: Section CSS */
-.section-title {
+.section .row {
+    row-gap: 40px;
+}
+.section .section-title {
     font-weight: 800;
     font-size: 36px;
     line-height: 44px;
     color: var(--black);
+}
+.section .section-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2rem;
 }
 /* END: Section CSS */
 
