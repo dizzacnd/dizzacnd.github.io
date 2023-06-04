@@ -261,7 +261,7 @@
 
 /* START: Footer Styling */
 footer {
-    padding: 55px 0;
+    padding: 60px 0;
 }
 
 .footer-section .title {
@@ -270,7 +270,7 @@ footer {
     line-height: 15px;
     color: var(--black);
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer-links {
@@ -303,7 +303,11 @@ footer {
     background: var(--light-gray);
 }
 
-.copyright {
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-bottom .copyright {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
