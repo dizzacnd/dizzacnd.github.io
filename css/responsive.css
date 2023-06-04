@@ -55,6 +55,12 @@
         bottom: 50px;
     }
     /* END: Hero Carousel Styling */
+
+    /* START: Benefits Styling */
+    .benefits {
+        column-gap: 20px;
+    }
+    /* END: Benefits Styling */
 }
 
 /* Small devices (landscape phones, 576px and down) */
