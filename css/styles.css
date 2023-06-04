@@ -254,7 +254,7 @@
     border: 0;
 }
 .newsletter .input-group button:hover {
-    background: var(--gray);
+    background: var(--light-gray);
     color: var(--white);
 }
 /* END: Newsletter Styling */

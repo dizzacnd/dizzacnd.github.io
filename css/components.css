@@ -9,8 +9,7 @@
     border: none;
 }
 .btn-white:hover {
-    color: var(--white);
-    background: var(--black);
+    background: var(--light-gray);
     transition: all 0.5s;
 }
 
