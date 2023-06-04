@@ -28,7 +28,7 @@
     background: var(--light-gray);
     transition: all 0.5s;
 }
-a.btn-black {
+a.btn-black, a.btn-white {
     text-decoration: none;
 }
 /* END: Buttons CSS */
@@ -79,7 +79,6 @@ a.btn-black {
     text-transform: none;
     display: none;
     width: 225px;
-    min-height: 66px;
 }
 .category .image-container:hover > .btn-white {
     display: block;
@@ -91,7 +90,7 @@ a.btn-black {
     color: var(--black);
     text-decoration: none;
 }
-.category a:hover {
+.category a.btn-whites:hover {
     text-decoration: underline;
 }
 .category h4 {

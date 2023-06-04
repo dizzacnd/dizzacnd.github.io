@@ -165,7 +165,7 @@
     color: var(--white);
 }
 
-.vip-exclusive button {
+.vip-exclusive a {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
