@@ -9,6 +9,7 @@
     --black: #000000;
     --white: #FFFFFF;
     --light-gray: #F2F2F2;
+    --red: #C1272D;
 }
 
 /* START: Navigation Styling */
@@ -134,19 +135,8 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 /* END: VIP Exclusive Styling */
 
 /* START: Now Trending Styling */
-.trending {
-    padding: 79px 0;
-}
-
 .trending .row {
     row-gap: 40px;
-}
-
-.trending h3 {
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 44px;
-    color: var(--black);
 }
 /* END: Now Trending Styling */
 
@@ -175,3 +165,9 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
     padding: 10px 20px;
 }
 /* END: New Arrivals Styling */
+
+/* START: Recently Bought Styling */
+.recently-bought .row {
+    row-gap: 40px;
+}
+/* END: Recently Bought Styling */

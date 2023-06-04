@@ -97,3 +97,62 @@
     margin-top: 10px;
     margin-bottom: 0;
 }
+
+/* START: Section CSS */
+.section {
+    padding: 70px 0;
+}
+.section-title {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--black);
+}
+/* END: Section CSS */
+
+/* START: Product CSS */
+.product .image-container, .product .product-details {
+    position: relative;
+    width: 225px;
+    margin: 0 auto;
+}
+.product .image-container > .btn-white {
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    font-size: 12px;
+    text-transform: none;
+    display: none;
+    padding: 10px 20px;
+}
+.product .image-container:hover > .btn-white {
+    display: block;
+}
+.product .image-container img {
+    width: 225px;
+}
+.product .product-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: var(--black);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+.product .price, .product .price.new, .product .price.old {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--black);
+}
+.product .price.new {
+    font-weight: 800;
+    color: var(--red);
+    margin-right: 20px;
+}
+.product .price.old {
+    text-decoration-line: line-through;
+}
+/* END: Product CSS */
