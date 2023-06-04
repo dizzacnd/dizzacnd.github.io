@@ -11,10 +11,6 @@
 }
 
 /* START: Navigation Styling */
-nav.navbar {
-    height: 70px;
-}
-
 nav.navbar .nav-item .nav-link {
     font-style: normal;
     font-weight: 400;
@@ -54,3 +50,23 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
     font-size: 14px;
 }
 /* END: Navigation Styling */
+
+/* START: Benefits Styling */
+.benefits {
+    background-color: var(--light-gray);
+}
+
+.benefits .benefit-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.benefits .benefit-item span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+/* END: Benefits Styling */
+

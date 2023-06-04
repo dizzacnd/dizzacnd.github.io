@@ -10,23 +10,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
 
     <title>Threaded</title>
 </head>
 <body>
     <div id="app">
-        <!-- Navigation -->
+        <!-- START: Navigation -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid justify-content-between">
                 <div class="col-12 col-md-4">
                     <div class="d-flex align-items-center">
+                        <!-- Start: Mobile & tablet hamburger menu button -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+                        <!-- End: Mobile & tablet hamburger menu button -->
+
+                        <!-- Start: Mobile & tablet Threaded logo -->
                         <div class="d-lg-none ms-3">
                             <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="Threaded Logo"></a>
                         </div>
+                        <!-- End: Mobile & tablet Threaded logo -->
                     </div>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav">
@@ -45,9 +51,11 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Start: Desktop Threaded logo -->
                 <div class="d-none d-lg-block">
                     <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="Threaded Logo"></a>
                 </div>
+                <!-- End: Desktop Threaded logo -->
                 <div class="col-12 col-md-4 right-nav d-flex justify-content-center justify-content-md-end align-items-center mt-2 mt-md-0">
                     <div class="nav-item">
                         <a class="nav-link" href="#"><img src="/images/navigation/user.png" alt="User icon"></a>
@@ -64,6 +72,7 @@
                     <div class="nav-item">
                         <a class="nav-link" href="#"><img src="/images/navigation/search.png" alt="Magnifying glass icon"></a>
                     </div>
+                    <!-- Start: Currency dropdown -->
                     <div class="dropdown ms-2">
                         <button class="btn rounded-pill dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="/images/navigation/us-flag.png" class="rounded-circle me-1" alt="United States of America flag">
@@ -75,9 +84,36 @@
                           <li><a class="dropdown-item" href="#">PHP &#8369;</a></li>
                         </ul>
                     </div>
+                    <!-- End: Currency dropdown -->
                 </div>
             </div>
         </nav>
+        <!-- END: Navigation -->
+
+        <!-- START: Benefits -->
+        <div class="benefits row py-2 py-lg-0">
+            <div class="col-12 col-md-6 col-lg benefit-item">
+                <img src="/images/benefits/crown.png" class="me-2" alt="Crown icon">
+                <span>Exclusive Deals for VIP 2 and up!</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg benefit-item">
+                <img src="/images/benefits/star.png" class="me-2" alt="Star icon">
+                <span>Weekly New Arrivals</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg benefit-item">
+                <img src="/images/benefits/truck-delivery-outline.png" class="me-2" alt="Delivery truck icon">
+                <span>Free Shipping On Orders Over $100</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg benefit-item">
+                <img src="/images/benefits/map-pin.png" class="me-2" alt="Map pin icon">
+                <span>Track Your Order</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg benefit-item">
+                <img src="/images/benefits/purchase-tag.png" class="me-2" alt="Price tag icon">
+                <span>10% Off On Your First Order!</span>
+            </div>
+        </div>
+        <!-- END: Benefits -->
     </div>
 </body>
 </html>

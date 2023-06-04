@@ -1,0 +1,17 @@
+/* X-Large devices (desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* START: Benefits Styling */
+    .benefits {
+        height: 50px;
+    }
+    /* END: Benefits Styling */
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* START: Navigation Styling */
+    nav.navbar {
+        height: 70px;
+    }
+    /* END: Navigation Styling */
+}
