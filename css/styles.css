@@ -135,6 +135,9 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 /* END: VIP Exclusive Styling */
 
 /* START: Now Trending Styling */
+.trending {
+    padding: 79px 0;
+}
 .trending .row {
     row-gap: 40px;
 }
@@ -167,6 +170,9 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 /* END: New Arrivals Styling */
 
 /* START: Recently Bought Styling */
+.recently-bought {
+    padding: 70px 0;
+}
 .recently-bought .row {
     row-gap: 40px;
 }

@@ -24,15 +24,17 @@
     }
     /* END: Hero Carousel Styling */
 
-    /* START: VIP Exclusive */
+    /* START: VIP Exclusive Styling */
     .vip-exclusive {
         height: 75px;
     }
-    /* END: VIP Exclusive */
+    /* END: VIP Exclusive Styling */
 
-    .section {
+    /* START: Now Trending Styling */
+    .trending {
         padding: 79px 170px;
     }
+    /* END: Now Trending Styling */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

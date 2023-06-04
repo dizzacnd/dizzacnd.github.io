@@ -1,3 +1,4 @@
+/* START: Buttons CSS */
 .btn-white {
     font-weight: 600;
     color: var(--black);
@@ -29,7 +30,9 @@
     background: var(--light-gray);
     transition: all 0.5s;
 }
+/* END: Buttons CSS */
 
+/* START: Offer item CSS */
 .offer {
     padding: 47px 0;
 }
@@ -59,7 +62,9 @@
     margin-top: 5px;
     margin-bottom: 0;
 }
+/* END: Offer item CSS */
 
+/* START: Category CSS */
 .category .image-container {
     position: relative;
     width: 225px;
@@ -97,11 +102,9 @@
     margin-top: 10px;
     margin-bottom: 0;
 }
+/* END: Category CSS */
 
 /* START: Section CSS */
-.section {
-    padding: 70px 0;
-}
 .section-title {
     font-weight: 800;
     font-size: 36px;
