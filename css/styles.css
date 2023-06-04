@@ -133,7 +133,7 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 }
 /* END: VIP Exclusive Styling */
 
-/* START: Now Trending Styling*/
+/* START: Now Trending Styling */
 .trending {
     padding: 79px 0;
 }
@@ -148,4 +148,30 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
     line-height: 44px;
     color: var(--black);
 }
-/* END: Now Trending Styling*/
+/* END: Now Trending Styling */
+
+/* START: New Arrivals Styling */
+.new-arrivals {
+    background: black url('/images/new-arrival-bg.jpg') no-repeat top center;
+    background-size: cover;
+    height: 400px;
+}
+
+.new-arrivals h3 {
+    font-weight: 800;
+    font-size: 86px;
+    line-height: 86px;
+    color: var(--white);
+}
+
+.new-arrivals p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--white);
+}
+
+.new-arrivals .btn-white {
+    padding: 10px 20px;
+}
+/* END: New Arrivals Styling */
