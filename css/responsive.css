@@ -5,13 +5,69 @@
         height: 50px;
     }
     /* END: Benefits Styling */
+
+    /* START: Hero Carousel Styling */
+    #heroCarousel .carousel-inner .carousel-item img {
+        height: 79.2vh;
+    }
+
+    #heroCarousel .carousel-inner .carousel-item button {
+        font-size: 36px;
+        line-height: 44px;
+        bottom: 100px;
+    }
+    /* END: Hero Carousel Styling */
 }
 
-/* Medium devices (desktops, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    /* START: Hero Carousel Styling */
+    #heroCarousel .carousel-inner .carousel-item img {
+        height: 350px;
+    }
+    /* END: Hero Carousel Styling */
+}
+
+/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* START: Navigation Styling */
     nav.navbar {
         height: 70px;
     }
     /* END: Navigation Styling */
+
+    /* START: Hero Carousel Styling */
+    #heroCarousel .carousel-inner .carousel-item button {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    /* END: Hero Carousel Styling */
+}
+
+/* Medium devices (tablets, 1024px and down) */
+@media screen and (max-width: 1024px) {
+    /* START: Hero Carousel Styling */
+    #heroCarousel .carousel-inner .carousel-item img {
+        height: 350px;
+    }
+    #heroCarousel .carousel-inner .carousel-item button {
+        font-size: 12px;
+        line-height: 12px;
+        bottom: 50px;
+    }
+    /* END: Hero Carousel Styling */
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media screen and (max-width: 576px) {
+    /* START: Hero Carousel Styling */
+    #heroCarousel .carousel-inner .carousel-item img {
+        height: 260px;
+    }
+    
+    #heroCarousel .carousel-inner .carousel-item button {
+        font-size: 12px;
+        line-height: 12px;
+        bottom: 20px;
+    }
+    /* END: Hero Carousel Styling */
 }

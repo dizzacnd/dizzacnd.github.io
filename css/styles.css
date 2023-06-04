@@ -7,6 +7,7 @@
 
 :root {
     --black: #000000;
+    --white: #FFFFFF;
     --light-gray: #F2F2F2;
 }
 
@@ -70,3 +71,26 @@ nav.navbar .dropdown .dropdown-menu .dropdown-item {
 }
 /* END: Benefits Styling */
 
+/* START: Hero Carousel Styling */
+#heroCarousel .carousel-indicators > button {
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+}
+#heroCarousel .carousel-indicators > button:focus {
+    box-shadow: none;
+}
+#heroCarousel .carousel-control-next, #heroCarousel .carousel-control-prev {
+    width: 55px;
+}
+
+#heroCarousel .carousel-inner .carousel-item img {
+    object-fit: cover;
+    object-position: right;
+}
+
+#heroCarousel .carousel-inner .carousel-item button {
+    position: absolute;
+    left: 65%;
+}
+/* END: Hero Carousel Styling */
